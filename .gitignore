@@ -1,0 +1,13 @@
+build/
+dist/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.user
+*.user.*
+*.o
+*.so
+*.a
+*.deb
+*.rpm

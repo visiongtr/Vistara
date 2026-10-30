@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Background -->
+  <rect x="0" y="0" width="256" height="256" rx="48" ry="48" fill="#111318"/>
+
+  <!-- Camera body -->
+  <rect x="32" y="64" width="192" height="128" rx="24" ry="24" fill="#222630"/>
+  
+  <!-- Top bar / viewfinder bump -->
+  <rect x="64" y="48" width="72" height="32" rx="10" ry="10" fill="#2e3440"/>
+
+  <!-- Small indicator dot -->
+  <circle cx="188" cy="80" r="6" fill="#ffb347"/>
+
+  <!-- Lens outer ring -->
+  <circle cx="128" cy="128" r="52" fill="#111318"/>
+  <circle cx="128" cy="128" r="46" fill="#2b303b"/>
+
+  <!-- Subtle lens inner glow -->
+  <radialGradient id="lensGlow" cx="30%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#4fc3f7"/>
+    <stop offset="40%" stop-color="#2b303b"/>
+    <stop offset="100%" stop-color="#151820"/>
+  </radialGradient>
+  <circle cx="128" cy="128" r="40" fill="url(#lensGlow)"/>
+
+  <!-- V inside the lens -->
+  <path d="
+    M 98 104
+    L 118 156
+    Q 128 176 138 156
+    L 158 104
+    L 146 104
+    L 130 146
+    Q 128 150 126 146
+    L 110 104
+    Z"
+    fill="#f5f7ff"/>
+
+  <!-- Tiny highlight arc on lens -->
+  <path d="M 94 110 A 36 36 0 0 1 132 88" fill="none" stroke="#8fd3ff" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+</svg>

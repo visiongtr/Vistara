@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Vistara
+Comment=Fast, lightweight image viewer
+Exec=Vistara %f
+Icon=vistara
+Terminal=false
+Categories=Graphics;Viewer;
+MimeType=image/jpeg;image/png;image/webp;image/tiff;image/bmp;image/gif;
+StartupNotify=true

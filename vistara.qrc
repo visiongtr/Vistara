@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file alias="vistara_icon_256.png">icons/vistara_icon_256.png</file>
+    <file alias="rotate-left.png">icons/rotate-left.png</file>
+    <file alias="rotate-right.png">icons/rotate-right.png</file>
+    <file alias="save.png">icons/save.png</file>
+    <file alias="fit.png">icons/fit.png</file>
+    <file alias="actual-size.png">icons/actual-size.png</file>
+    <file alias="fullscreen.png">icons/fullscreen.png</file>
+  </qresource>
+</RCC>

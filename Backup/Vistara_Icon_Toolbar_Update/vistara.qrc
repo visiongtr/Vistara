@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>vistara_icon_256.png</file>
+    <file>rotate-left.png</file>
+    <file>rotate-right.png</file>
+    <file>save.png</file>
+    <file>fit.png</file>
+    <file>actual-size.png</file>
+
+  </qresource>
+</RCC>
